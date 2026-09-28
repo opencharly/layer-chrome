@@ -1,7 +1,5 @@
-version: 2026.232.0520
 chrome:
     candy:
-        version: 2026.168.0936
         description: |
             Installs the Google Chrome browser cross-distro as a runnable binary at a stable path.
             Google Chrome browser package. Cross-distro: pulls from Google's
