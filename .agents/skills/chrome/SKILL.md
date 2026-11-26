@@ -200,7 +200,9 @@ Override per box or per instance via `charly config` flags (see `/charly-core:ch
 
 On the selkies streaming desktop, Chrome is launched + supervised by a
 `[program:chrome]` supervisord service declared in the **`selkies-core`** candy
-candy, shared by both selkies flavors.
+— shared by both selkies flavors (labwc via `selkies-desktop`, KDE Plasma via
+`selkies-kde-desktop`). `sway-browser-vnc` launches Chrome via the separate `chrome-sway`
+candy and is not supervised this way.
 The selkies-core service:
 
 - `restart: always` (autorestart) — relaunches Chrome on any exit, including the
