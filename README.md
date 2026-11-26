@@ -66,7 +66,7 @@ contending with a running desktop Chrome.
 
 - Owning skill: `/charly-selkies:chrome` — the browser layer, CDP proxy, and
   `chrome-wrapper` reference
-- CDP / MCP: `/charly-check:cdp`, `/charly-selkies:chrome-devtools-mcp`
-- Compositions: `/charly-selkies:chrome-sway`, `/charly-selkies:sway-desktop`
+- CDP / MCP: `/charly-check:cdp`
+- Compositions: `/charly-selkies:chrome-sway`
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella
